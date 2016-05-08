@@ -1,0 +1,24 @@
+Рокетбанк:
+https://rocketbank.ru/open-rates
+евро:
+.rb-rates table[2] tbody[2] tr[2] p
+.rb-rates table[2] tbody[3] tr[3] p
+доллар:
+.rb-rates table[2] tbody[1] tr[2] p
+.rb-rates table[2] tbody[1] td[3] p
+
+Сбербанк:
+http://www.sberbank.ru/common/js/get_quote_values.php?inf_block=123&qid[]=2&qid[]=3&_date_afrom114=08.05.2016&_date_ato114=08.05.2016&display=json
+qid[] — валюты (2 — евро, 3 — доллар)
+
+Альфабанк:
+https://alfabank.ru/ext-json/0.2/exchange/cash
+
+Райффайзен:
+http://peterburg.raiffeisen.ru/currency_rates/
+евро:
+//*[@id="currency_rates"]/div[2]/table/tbody/tr[3]/td[4]
+//*[@id="currency_rates"]/div[2]/table/tbody/tr[3]/td[6]
+доллар:
+//*[@id="currency_rates"]/div[2]/table/tbody/tr[2]/td[4]
+//*[@id="currency_rates"]/div[2]/table/tbody/tr[2]/td[6]

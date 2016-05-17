@@ -1,0 +1,72 @@
+#rate-table {
+    margin: 100px auto;
+    text-align: center;
+    width: 892px;
+}
+
+#rate-table .bank {
+    font: 12px 'Trebuchet MS', 'Helvetica';
+    text-shadow: 0 1px rgba(255, 255, 255, .8);
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 20px;
+    width: 180px;
+    float: left;
+    position: relative;
+}
+
+#rate-table #most-popular {
+    z-index: 2;
+    top: -13px;
+    border-width: 3px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+}
+
+#rate-table .bank:nth-child(1) {
+    border-radius: 5px 0 0 5px;
+}
+
+#rate-table .bank:nth-child(4) {
+    border-radius: 0 5px 5px 0;
+}
+
+#rate-table h3 {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px;
+    margin: -20px -20px 50px -20px;
+    background-color: #eee;
+    background-image: linear-gradient(#fff, #eee);
+}
+
+#rate-table #most-popular h3 {
+    background-color: #ddd;
+    background-image: linear-gradient(#eee, #ddd);
+    margin-top: -30px;
+    padding-top: 30px;
+    border-radius: 5px 5px 0 0;
+}
+
+#rate-table .bank:nth-child(1) h3 {
+    border-radius: 5px 0 0 0;
+}
+
+#rate-table .bank:nth-child(4) h3 {
+    border-radius: 0 5px 0 0;
+}
+
+#rate-table h3 span {
+    display: block;
+    font: bold 25px/100px Georgia, Serif;
+    color: #777;
+    background: #fff;
+    border: 5px solid #fff;
+    height: 100px;
+    width: 100px;
+    margin: 10px auto -65px;
+    border-radius: 100px;
+    box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+}
